@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    box-sizing: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+
+
+/**
+*
+*LOGIN PAGE
+*/
+div.background{
+    position: absolute;
+    left: 0;
+    width: calc(100% - 300px);
+    height: 100%;
+    background-image: url(../assets/images/wallpaper_login.jpg);
+    background-size: cover;
+}
+section#conteudo-view{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    float: right;
+    width: 300px;
+    height: 100%;
+    background: #292929;
+}
+
+section#conteudo-view h1{
+    float: left;
+    width: 100%;
+    font: 2.8em 'Fredoka One', cursive;
+    margin-top: 50px;
+    color: #f3f3f3;
+}
+
+section#conteudo-view h3,
+section#conteudo-view form p{
+    float: left;
+    font: .79em 'Fredoka One', cursive;
+    width: 100%;
+    color: #f3f3f3;
+}
+
+section#conteudo-view form,
+section#conteudo-view form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+section#conteudo-view form{
+    margin-top: 40px;
+}
+
+section#conteudo-view form p{
+    font-size: 1.25em;
+
+}
+section#conteudo-view form input[type="submit"],
+section#conteudo-view form label input{
+float: left;
+width: 100%;
+height: 40px;
+border-radius: 20px;
+padding: 0 20px;
+border: 2px solid #545655;
+color: #959595;
+font: 1em 'Arial';
+
+}
+
+section#conteudo-view form input[type="submit"]{
+
+background:  #676b6a;
+text-align: center;
+width: 60%;
+float: right;
+color: #f9f9f9;
+font: 1em 'Fredoka One', cursive;
+}
